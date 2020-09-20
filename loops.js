@@ -10,3 +10,11 @@ function forLoop(array){;
     array.push ('I am ${1} strange loops')
   }
   return array;
+
+function whileLoop(n){
+  for countdown = n;
+  while( countdown > 0){
+    console.log (--countdown)
+    return "done";
+  }
+}
