@@ -9,5 +9,5 @@ function forLoop(array){;
   else{
     array.push ("I am ${1} strange loop$")
   }
-
-        
+  return array;
+  
